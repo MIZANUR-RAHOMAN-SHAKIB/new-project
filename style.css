@@ -12,6 +12,7 @@ h1{
     width: 50%;
     padding-left: 50px;
     padding-top: 20px;
+  
 }
 .half img{
    width: 60%;
@@ -19,6 +20,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .link{
     background-image: linear-gradient(orange, tomato);
@@ -31,4 +33,18 @@ section{
 .TOP-BANNER{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.new-half{
+    background-image: none;
+    width:50%;
+}
+.new-half img{
+    width: 60%;
+    padding-left: 50px;
+    height: 90%;
+}
+.new-back{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
